@@ -12,6 +12,11 @@
 
 - [Jinja Template - Argon Demo](https://jinja-template-argon-dashboard.appseed.us/) - LIVE Demo
 
+> Used by 
+
+- [Flask Dashboard - Argon Design](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - free admin dashboard coded in Flask
+- [Django Dashboard - Argon Design](https://appseed.us/admin-dashboards/django-dashboard-argon) - simple Django dashboard
+
 <br />
 
 ## UI Kit - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200)
