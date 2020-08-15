@@ -1,38 +1,43 @@
-{% extends "layouts/base-fullscreen.html" %}
+{% extends 'layouts/base-fullscreen.html' %}
 
-{% block title %} Error 500 {% endblock %} 
+{% block title %} Error 404 {% endblock title %}
 
-<!-- Specific Page CSS goes HERE  -->
+<!-- Specific CSS goes HERE -->
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
 
-    <!-- Section -->
-    <section class="min-vh-100 d-flex align-items-center bg-soft">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 d-flex align-items-center justify-content-center">
-                    <div class="signin-inner mt-3 mt-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
-                        <div class="text-center text-md-center mb-4 mt-md-0">
-                            <h1 class="mb-0 h3">
-                              Error 500
-                            </h1>
-                            <br />
-                            <span class="font-weight-normal">
-                                Server error - please contact support.
-                            </span>                            
-                        </div>
-                        
-                        <form action="#" class="mt-4">
-                            <a href="/" class="btn btn-block btn-primary">Home</a>
-                        </form>
-                    </div>
-                </div>
+    <!-- Page content -->
+    <div class="container mt--8 pb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-7">
+          <div class="card bg-secondary shadow border-0">
+            <div class="card-header bg-transparent pb-5">
+
+              <div class="text-muted text-center mt-2 mb-3">
+                Oups! Error 500      
+              </div>
+
+              <div class="text-center mb-4">
+                Server error, please contact support - <a href="/">Home</a>.
+              </div>
+
             </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-6">
+              <a href="/" class="text-light"><small>Home</small></a>
+            </div>
+            <div class="col-6 text-right">
+              <a target="_blank" 
+                 href="https://appseed.us/support" class="text-light"><small>Get Support</small></a>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
 
 {% endblock content %}
 
-<!-- Specific Page JS goes HERE  -->
+<!-- Specific JS goes HERE --> 
 {% block javascripts %}{% endblock javascripts %}

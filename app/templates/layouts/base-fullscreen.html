@@ -1,86 +1,82 @@
 <!--
-
 =========================================================
-* Neumorphism UI - v1.0.0
+* Argon Dashboard - v1.2.0
 =========================================================
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
 
-* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
-* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
-
-* Coded by https://themesberg.com
-
+* Copyright  Creative Tim (http://www.creative-tim.com)
+* Coded by www.creative-tim.com
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Primary Meta Tags -->
-    <title>
-        Jinja2 Theme Neumorphism UI - {% block title %}{% endblock %} | AppSeed
-    </title>
+  <title>
+    Jinja Template Argon - {% block title %} Open-Source Admin Panel {% endblock %} | AppSeed
+  </title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content="Neumorphism UI - Sign up">
-    <meta name="author" content="Themesberg">
+  <link rel="icon" href="/static/assets/img/brand/favicon.png" type="image/png">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  <!-- Icons -->
+  <link rel="stylesheet" href="/static/assets/vendor/nucleo/css/nucleo.css" type="text/css">
+  <link rel="stylesheet" href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+  <!-- Argon CSS -->
+  <link rel="stylesheet" href="/static/assets/css/argon.css?v=1.2.0" type="text/css">
 
-    <!--  Social tags -->
-    <meta name="description" 
-          content="Simple Flask starter project coded on top of Neumorphism UI Kit - MIT License, coded by AppSeed.">
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="product">
-    <meta name="twitter:site" content="@themesberg">
-    <meta name="twitter:title" content="Neumorphism UI by Themesberg">
-    <meta name="twitter:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
-    <meta name="twitter:creator" content="@themesberg">
-    <meta name="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg">
-
-    <!-- Open Graph data -->
-    <meta property="fb:app_id" content="214738555737136">
-    <meta property="og:title" content="Neumorphism UI by Themesberg" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://demo.themesberg.com/neumorphism-ui/" />
-    <meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg"/>
-    <meta property="og:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages." />
-    <meta property="og:site_name" content="Themesberg" />
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="120x120" href="/static/assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/static/assets/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/static/assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Fontawesome -->
-    <link type="text/css" href="/static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-    <!-- Pixel CSS -->
-    <link type="text/css" href="/static/assets/css/neumorphism.css" rel="stylesheet">
-
-{% block stylesheets %}{% endblock stylesheets %}
+  <!-- Specific CSS goes HERE -->
+  {% block stylesheets %}{% endblock stylesheets %}
 
 </head>
 
-<body>
+<body class="bg-default">
 
-    <main>
+  <div class="main-content">
 
-        {% block content %}{% endblock content %}
+    {% include "includes/navigation-fullscreen.html" %}
 
-    </main>
+    <!-- Header -->
+    <div class="header bg-gradient-primary py-7 py-lg-8">
+      <div class="container">
+        <div class="header-body text-center mb-7">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 col-md-6">
+              <h1 class="text-white">
+                <a target="_blank" class="text-white"
+                   href="https://github.com/app-generator/jinja-template-argon-dashboard">Jinja Template Argon</a>
+              </h1>
+              <p class="text-lead text-light">
+                Open-Source Jinja Template with Argon Design 
+                Coded by <a target="_blank" class="text-white" href="https://appseed.us?ref=j2-argon-demo">AppSeed</a>.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    
+    {% block content %}{% endblock content %}
 
-    {% include 'includes/scripts.html' %}
+    {% include "includes/footer-fullscreen.html" %}
 
-    <!-- Specific Page JS goes HERE  -->
-    {% block javascripts %}{% endblock javascripts %}
+  </div>
+    
+  {% include "includes/scripts.html" %}
+
+  <!-- Specific JS goes HERE --> 
+  {% block javascripts %}{% endblock javascripts %}
+  
+  <script src="/static/assets/js/argon.js?v=1.2.0"></script>
 
 </body>
 
