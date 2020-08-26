@@ -1,4 +1,4 @@
-# [Jinja Template - Argon Dashboard](https://jinja-template-argon-dashboard.appseed.us/)
+# [Jinja Template](https://github.com/app-generator/jinja-template) - [Argon Dashboard](https://appseed.us/argon-design)
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
@@ -19,9 +19,9 @@
 
 <br />
 
-## UI Kit - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard?AFFILIATE=128200)
+## UI Kit - [Argon Dashboard](https://appseed.us/argon-design)
 
-Argon Dashboard is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files.
+*Vendor Notes* - [Argon Dashboard](https://appseed.us/argon-design) is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files.
 You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
 
 <br />
@@ -187,4 +187,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Template Jinja2 Theme](https://jinja-template-argon-dashboard.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://github.com/app-generator/jinja-template) [Argon Dashboard](https://appseed.us/argon-design) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
