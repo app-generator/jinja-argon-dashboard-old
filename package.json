@@ -1,24 +1,21 @@
 {
-    "name": "jinja-template-argon-dashboard",
+    "name": "jinja-argon-dashboard",
     "mastertemplate": "theme-jinja2",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Template project - Flask/Jinja2 Theme",
-    "scripts": {
-    },
+    "scripts": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/jinja-template-argon-dashboard"
+        "url": "https://github.com/app-generator/jinja-argon-dashboard"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/jinja-template-argon-dashboard/issues",
+        "url": "https://github.com/app-generator/jinja-argon-dashboard/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
     "engines": {
         "node": ">=10.0.0"
     },
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
+    "dependencies": {},
+    "devDependencies": {}
 }
