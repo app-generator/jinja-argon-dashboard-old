@@ -11,7 +11,7 @@
 
 > Links
 
-- [Jinja Argon Dashboard](jinja-argon-dashboard.appseed-srv1.com) - starter in action
+- [Jinja Argon Dashboard](https://jinja-argon-dashboard.appseed-srv1.com) - starter in action
 - More [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
 
 <br />
