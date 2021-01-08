@@ -16,7 +16,7 @@
 
 <br />
 
-![Jinja Template - Argon Dashboard, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-argon-dashboard/master/media/jinja-argon-dashboard-screen.png)
+![Jinja Template - Argon Dashboard, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-argon-dashboard/master/media/jinja-template-argon-dashboard-screen.png)
 
 <br />
 
