@@ -7,7 +7,7 @@
 > Features:
 
 - UI Kit: **Argon Dashboard** (Free Version) by **Creative-Tim**
-- Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
+- Render Engine: Flask / **Jinja2**
 - Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
