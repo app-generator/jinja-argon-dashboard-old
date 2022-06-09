@@ -1,0 +1,23 @@
+{
+    "backend": "flask",
+    "db_name": "",
+    "db_pass": "",
+    "db_type": "",
+    "db_user": "",
+    "dbms": "0",
+    "description": "generated product",
+    "design": "argon-dashboard",
+    "docker": "1",
+    "err_code": 0,
+    "frontend": "",
+    "heroku": "0",
+    "pattern": "mvc",
+    "pro": "0",
+    "task_id": "58320e71-ab86-4899-8d61-bb2666cb3f59",
+    "task_info": "Task is finished",
+    "task_output": "58320e71-ab86-4899-8d61-bb2666cb3f59.zip",
+    "task_result": "SUCCESS",
+    "task_state": "FINISHED",
+    "task_ts_end": "2022-06-09-16-54-53",
+    "task_ts_start": "2022-06-09-16-51-05"
+}
