@@ -1,0 +1,5 @@
+flask==2.0.2
+jinja2==3.0.2
+gunicorn==20.1.0
+python-dotenv==0.19.2
+Flask-Minify==0.37
