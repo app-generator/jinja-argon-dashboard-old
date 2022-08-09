@@ -8,7 +8,7 @@
 {% block content %}
 
   <div class="position-absolute w-100 min-height-300 top-0" 
-       style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/profile-layout-header.jpg'); background-position-y: 50%;">
+       style="background-image: url('{{ config.ASSETS_ROOT }}/img/profile-layout-header.jpg'); background-position-y: 50%;">
     <span class="mask bg-primary opacity-6"></span>
   </div>
       
@@ -23,7 +23,7 @@
         <div class="row gx-4">
           <div class="col-auto">
             <div class="avatar avatar-xl position-relative">
-              <img src="/static/assets/img/team-1.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+              <img src="{{ config.ASSETS_ROOT }}/img/team-1.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
             </div>
           </div>
           <div class="col-auto my-auto">
@@ -146,12 +146,12 @@
         </div>
         <div class="col-md-4">
           <div class="card card-profile">
-            <img src="/static/assets/img/bg-profile.jpg" alt="Image placeholder" class="card-img-top">
+            <img src="{{ config.ASSETS_ROOT }}/img/bg-profile.jpg" alt="Image placeholder" class="card-img-top">
             <div class="row justify-content-center">
               <div class="col-4 col-lg-4 order-lg-2">
                 <div class="mt-n4 mt-lg-n6 mb-4 mb-lg-0">
                   <a href="javascript:;">
-                    <img src="/static/assets/img/team-2.jpg" class="rounded-circle img-fluid border border-2 border-white">
+                    <img src="{{ config.ASSETS_ROOT }}/img/team-2.jpg" class="rounded-circle img-fluid border border-2 border-white">
                   </a>
                 </div>
               </div>
